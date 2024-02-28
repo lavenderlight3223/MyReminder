@@ -15,7 +15,7 @@ class RemindMeNotificationManager @Inject constructor(
 ) {
 
 	private val REMINDER_CHANNEL_ID = "reminder_id"
-	private val REMINDER_CHANNEL_NAME = "ЬнReminder"
+	private val REMINDER_CHANNEL_NAME = "MyReminder"
 	
 	private val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 	
