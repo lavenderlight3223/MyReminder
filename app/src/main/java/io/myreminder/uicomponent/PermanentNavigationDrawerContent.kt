@@ -19,7 +19,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.offset
-import io.myreminder.R
+import io.myreminderapp.R
 import io.myreminder.data.LayoutType
 import io.myreminder.data.RemindMeTopLevelDestination
 import io.myreminder.data.TOP_LEVEL_DESTINATIONS
@@ -40,8 +40,8 @@ fun PermanentNavigationDrawerContent(
 		// TODO remove custom nav drawer content positioning when NavDrawer component supports it. ticket : b/232495216
 		Layout(
 			modifier = Modifier
-                .background(MaterialTheme.colorScheme.inverseOnSurface)
-                .padding(16.dp),
+				.background(MaterialTheme.colorScheme.inverseOnSurface)
+				.padding(16.dp),
 			content = {
 				Column(
 					modifier = Modifier.layoutId(LayoutType.HEADER),
@@ -58,8 +58,8 @@ fun PermanentNavigationDrawerContent(
 					ExtendedFloatingActionButton(
 						onClick = onFABClicked,
 						modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 8.dp, bottom = 40.dp),
+							.fillMaxWidth()
+							.padding(top = 8.dp, bottom = 40.dp),
 						containerColor = MaterialTheme.colorScheme.tertiaryContainer,
 						contentColor = MaterialTheme.colorScheme.onTertiaryContainer
 					) {
@@ -79,8 +79,8 @@ fun PermanentNavigationDrawerContent(
 				
 				Column(
 					modifier = Modifier
-                        .layoutId(LayoutType.CONTENT)
-                        .verticalScroll(rememberScrollState()),
+						.layoutId(LayoutType.CONTENT)
+						.verticalScroll(rememberScrollState()),
 					horizontalAlignment = Alignment.CenterHorizontally,
 				) {
 					TOP_LEVEL_DESTINATIONS.forEach { replyDestination ->

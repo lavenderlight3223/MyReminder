@@ -52,7 +52,7 @@ fun RemindMeTopAppBar(
 					RemindMeRoute.REMINDER_DETAIL -> {
 						IconButton(onClick = onTrashClicked) {
 							Icon(
-								painter = painterResource(id = io.myreminder.R.drawable.ic_trash),
+								painter = painterResource(id = io.myreminderapp.R.drawable.ic_trash),
 								contentDescription = null
 							)
 						}
@@ -69,7 +69,7 @@ fun RemindMeTopAppBar(
 					RemindMeRoute.REMINDER_LIST -> {
 						IconButton(onClick = onSettingClicked) {
 							Icon(
-								painter = painterResource(id = io.myreminder.R.drawable.ic_setting),
+								painter = painterResource(id = io.myreminderapp.R.drawable.ic_setting),
 								contentDescription = null
 							)
 						}
@@ -80,7 +80,7 @@ fun RemindMeTopAppBar(
 					RemindMeRoute.REMINDER_DETAIL -> {
 						IconButton(onClick = onTrashClicked) {
 							Icon(
-								painter = painterResource(id = io.myreminder.R.drawable.ic_trash),
+								painter = painterResource(id = io.myreminderapp.R.drawable.ic_trash),
 								contentDescription = null
 							)
 						}

@@ -15,7 +15,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.myreminder.R
+import io.myreminderapp.R
 import io.myreminder.data.RemindMeRoute
 import io.myreminder.uicomponent.BasicPreference
 import io.myreminder.uicomponent.RemindMeTopAppBar

@@ -21,7 +21,7 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
-import io.myreminder.R
+import io.myreminderapp.R
 
 object RemindMeRoute {
 	const val HOME = "home"

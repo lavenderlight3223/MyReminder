@@ -19,7 +19,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.myreminder.R
+import io.myreminderapp.R
 import io.myreminder.theme.RemindMeTheme
 
 @Preview(showBackground = true)
@@ -107,8 +107,8 @@ fun ReminderMessageItem(
 					message = s
 				},
 				modifier = Modifier
-                    .weight(1f)
-                    .focusRequester(focusRequester)
+					.weight(1f)
+					.focusRequester(focusRequester)
 			)
 			
 			Spacer(modifier = Modifier.width(8.dp))

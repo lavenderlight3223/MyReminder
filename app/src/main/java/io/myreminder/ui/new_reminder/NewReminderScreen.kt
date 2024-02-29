@@ -7,7 +7,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.myreminder.R
+import io.myreminderapp.R
 import io.myreminder.uicomponent.DragHandle
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -64,7 +64,7 @@ fun NewReminderScreen(
 		}
 		
 		Spacer(modifier = Modifier
-            .navigationBarsPadding()
-            .imePadding())
+			.navigationBarsPadding()
+			.imePadding())
 	}
 }

@@ -53,7 +53,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.window.layout.DisplayFeature
-import io.myreminder.R
+import io.myreminderapp.R
 import io.myreminder.data.RemindMeTopLevelDestination
 import io.myreminder.data.RemindMeTopLevelDestinations
 import io.myreminder.data.ReminderMessageType
@@ -241,9 +241,9 @@ fun RemindMeReminderList(
 					navigateToTopLevelDestination(RemindMeTopLevelDestinations.newReminder)
 				},
 				modifier = Modifier
-                    .padding(32.dp)
-                    .align(Alignment.BottomEnd)
-                    .zIndex(2f)
+					.padding(32.dp)
+					.align(Alignment.BottomEnd)
+					.zIndex(2f)
 			) {
 				Icon(
 					imageVector = Icons.Rounded.Add,
@@ -284,8 +284,8 @@ fun RemindMeReminderList(
 								}
 							},
 							modifier = Modifier
-                                .padding(horizontal = 8.dp)
-                                .fillMaxWidth()
+								.padding(horizontal = 8.dp)
+								.fillMaxWidth()
 						) {
 							Text(
 								text = stringResource(id = R.string.grant_post_notification_permission)
@@ -312,8 +312,8 @@ fun RemindMeReminderList(
 							)
 						},
 						modifier = Modifier
-                            .padding(8.dp)
-                            .fillMaxWidth()
+							.padding(8.dp)
+							.fillMaxWidth()
 					)
 				}
 			}
