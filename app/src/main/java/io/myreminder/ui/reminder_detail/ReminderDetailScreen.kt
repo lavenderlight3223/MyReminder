@@ -37,7 +37,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import io.myreminderapp.R
+import io.myreminder.R
 import io.myreminder.data.HourClockType
 import io.myreminder.data.TimeType
 import io.myreminder.uicomponent.AnimatedScaleText
@@ -232,10 +232,10 @@ private fun TimePicker(
 					maxValue = 60,
 					onPositionChange = onPositionChange,
 					modifier = Modifier
-                        .fillMaxWidth(0.9f)
-                        .aspectRatio(1f / 1f)
-                        .rotate(180f)
-                        .clipToBounds()
+						.fillMaxWidth(0.9f)
+						.aspectRatio(1f / 1f)
+						.rotate(180f)
+						.clipToBounds()
 				)
 			}
 		}
@@ -290,8 +290,8 @@ fun ShowedClockTime(
 			Box(
 				contentAlignment = Alignment.Center,
 				modifier = Modifier
-                    .fillMaxWidth(0.9f)
-                    .aspectRatio(1f / 1f)
+					.fillMaxWidth(0.9f)
+					.aspectRatio(1f / 1f)
 			) {
 				content()
 			}

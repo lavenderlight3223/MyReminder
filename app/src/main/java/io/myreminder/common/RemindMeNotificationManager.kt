@@ -6,7 +6,7 @@ import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
 import androidx.annotation.RequiresApi
-import io.myreminderapp.R
+import io.myreminder.R
 import io.myreminder.data.model.Reminder
 import javax.inject.Inject
 

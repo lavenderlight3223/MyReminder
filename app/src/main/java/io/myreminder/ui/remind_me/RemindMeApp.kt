@@ -21,7 +21,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.*
 import androidx.window.layout.DisplayFeature
 import androidx.window.layout.FoldingFeature
-import io.myreminderapp.R
+import io.myreminder.R
 import io.myreminder.data.RemindMeNavigationActions
 import io.myreminder.data.RemindMeRoute
 import io.myreminder.data.RemindMeTopLevelDestination

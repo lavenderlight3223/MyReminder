@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace 'io.myreminderapp'
+    namespace 'io.myreminder'
     compileSdk 33
 
     defaultConfig {
-        applicationId "io.myreminderapp"
+        applicationId "io.myreminder"
         minSdk 24
         targetSdk 33
         versionCode 1

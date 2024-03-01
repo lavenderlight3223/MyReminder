@@ -53,7 +53,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.window.layout.DisplayFeature
-import io.myreminderapp.R
+import io.myreminder.R
 import io.myreminder.data.RemindMeTopLevelDestination
 import io.myreminder.data.RemindMeTopLevelDestinations
 import io.myreminder.data.ReminderMessageType
@@ -397,8 +397,8 @@ fun RemindMeReminderDetail(
 		Box(
 			contentAlignment = Alignment.Center,
 			modifier = modifier
-                .fillMaxSize()
-                .systemBarsPadding()
+				.fillMaxSize()
+				.systemBarsPadding()
 		) {
 			Text(
 				text = stringResource(id = R.string.no_reminder_selected),
@@ -409,8 +409,8 @@ fun RemindMeReminderDetail(
 		LazyColumn(
 			state = lazyListState,
 			modifier = modifier
-                .fillMaxSize()
-                .systemBarsPadding()
+				.fillMaxSize()
+				.systemBarsPadding()
 		) {
 			item {
 				RemindMeTopAppBar(
@@ -468,12 +468,12 @@ fun RemindMeReminderDetail(
 			
 			itemsIndexed(viewModel.messages) { i, (text, type) ->
 				val reminderMessageModifier = Modifier
-                    .padding(
-                        horizontal = 8.dp,
-                        vertical = 4.dp
-                    )
-                    .fillMaxWidth()
-                    .animateItemPlacement()
+					.padding(
+						horizontal = 8.dp,
+						vertical = 4.dp
+					)
+					.fillMaxWidth()
+					.animateItemPlacement()
 				
 				if (type == ReminderMessageType.Fixed) {
 					ReminderMessageItem(

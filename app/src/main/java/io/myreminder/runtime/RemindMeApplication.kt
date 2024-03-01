@@ -2,7 +2,7 @@ package io.myreminder.runtime
 
 import android.app.Application
 import android.os.Build
-import io.myreminderapp.BuildConfig
+import io.myreminder.BuildConfig
 import io.myreminder.common.RemindMeNotificationManager
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber

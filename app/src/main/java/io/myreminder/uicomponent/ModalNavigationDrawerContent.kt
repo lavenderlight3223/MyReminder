@@ -36,7 +36,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.offset
-import io.myreminderapp.R
+import io.myreminder.R
 import io.myreminder.data.LayoutType
 import io.myreminder.data.RemindMeTopLevelDestination
 import io.myreminder.data.TOP_LEVEL_DESTINATIONS
@@ -110,8 +110,8 @@ fun ModalNavigationDrawerContent(
 				
 				Column(
 					modifier = Modifier
-                        .layoutId(LayoutType.CONTENT)
-                        .verticalScroll(rememberScrollState()),
+						.layoutId(LayoutType.CONTENT)
+						.verticalScroll(rememberScrollState()),
 					horizontalAlignment = Alignment.CenterHorizontally,
 				) {
 					TOP_LEVEL_DESTINATIONS.forEach { replyDestination ->
